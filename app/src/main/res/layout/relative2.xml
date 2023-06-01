@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnBase"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:text="기준위젯"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnBase"
+        android:layout_alignTop="@+id/btnBase"
+        android:text="1번"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnBase"
+        android:layout_alignBaseline="@+id/btnBase"
+        android:text="2번"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnBase"
+        android:layout_alignBottom="@+id/btnBase"
+        android:text="3번"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBase"
+        android:layout_alignLeft="@+id/btnBase"
+        android:text="4번"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBase"
+        android:layout_alignRight="@+id/btnBase"
+        android:text="5번"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btnBase"
+        android:layout_above="@+id/btnBase"
+        android:text="6번"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBase"
+        android:layout_toRightOf="@+id/btnBase"
+        android:text="7번"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btnBase"
+        android:layout_alignBaseline="@+id/btnBase"
+        android:text="8번"/>
+
+</RelativeLayout>
